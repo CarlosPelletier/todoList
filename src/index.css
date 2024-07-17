@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -11,3 +12,18 @@ body {
   position: relative;
   min-height: 100vh;
 }
+=======
+body {
+  margin: 0;
+  padding: 0;
+  background: #F2F4F5;
+  color: #1E1E1F;
+  font-family:  "Montserrat", sans-serif;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
+>>>>>>> dedf4795927cc9233dec2d0a6a192fd6a51427cf

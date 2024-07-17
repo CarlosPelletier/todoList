@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './CreateTodoButton.css';
 import { TodoContext } from '../TodoContext/Index';
 import React from 'react';
@@ -18,4 +19,14 @@ function CreateTodoButton() {
     )
   }
 
+=======
+import './CreateTodoButton.css';
+
+function CreateTodoButton() {
+    return( 
+      <button className="CreateTodoButton"> + </button>
+    )
+  }
+
+>>>>>>> dedf4795927cc9233dec2d0a6a192fd6a51427cf
 export { CreateTodoButton };

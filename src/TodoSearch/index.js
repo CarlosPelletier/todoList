@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import "./TodoSearch.css";
 import React from "react";
@@ -23,4 +24,24 @@ function TodoSearch() {
     )
   }
 
+=======
+
+import "./TodoSearch.css";
+
+function TodoSearch({ searchValue, setSearchValue}) {
+
+
+    return(
+      <input 
+      placeholder="Coratar cebolla"
+      className="TodoSearch"
+      value={searchValue}
+      onChange={(event) => {
+        setSearchValue(event.target.value)
+      }}
+      />
+    )
+  }
+
+>>>>>>> dedf4795927cc9233dec2d0a6a192fd6a51427cf
   export { TodoSearch };

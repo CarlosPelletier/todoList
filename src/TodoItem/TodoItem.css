@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .TodoItem {
     background-color: #FAFAFA;
     position: relative;
@@ -19,3 +20,26 @@
 .TodoItem-p--complete {
     text-decoration: line-through;
 }
+=======
+.TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+
+.TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+>>>>>>> dedf4795927cc9233dec2d0a6a192fd6a51427cf

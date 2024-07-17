@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     font-size: 24px;
     text-align: center;
@@ -8,4 +9,16 @@ h1 {
 
 .TodoCounter span {
     font-weight: bold;
+=======
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: normal;
+    }
+
+.TodoCounter span {
+    font-weight: bold;
+>>>>>>> dedf4795927cc9233dec2d0a6a192fd6a51427cf
 }
